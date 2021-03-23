@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    overflow: hidden;
+    font-family: "Kumbh Sams",sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background-color:hsl(185, 75%, 39%) ;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pattern-top{
+    position: absolute;
+    top: -300px;
+    left:-300px
+}
+
+.pattern-bottom{
+    position: absolute;
+    bottom: -300px;
+    right: -300px
+}
+
+.card-container{
+    margin: auto;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+   background-image: url(/images/bg-pattern-card.svg);
+   background-repeat: no-repeat;
+    
+}
+
+.profile-pic{
+    margin: auto;
+    margin-top: 90px;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid white;  
+    margin-bottom: 0;
+}
+
+.profile-pic img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;  
+    
+} 
+
+.info{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    width: 160px;
+    margin: auto;
+   margin-top: 5px;
+    gap: 10px ;
+
+}
+.name{
+      font-weight: 700;
+
+}
+
+.age{
+    color: hsl(0, 0%, 59%) ;
+   
+}
+
+.city{
+    color: hsl(0, 0%, 59%) ;
+    font-size: 0.7em;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid hsl(0, 0%, 59%);
+
+}
+
+.followers, .likes, .photos{
+    margin: 20px;
+}
+.followers p:nth-child(1),.likes p:nth-child(1) , .photos p:nth-child(1) {
+    font-weight: 700;
+
+
+}
+.followers p:nth-child(2), .likes p:nth-child(2) , .photos p:nth-child(2) {
+    color:hsl(0, 0%, 59%);
+    font-size: 0.9em ;
+
+}
