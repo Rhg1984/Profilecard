@@ -42,7 +42,7 @@ body{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-   background-image: url(/images/bg-pattern-card.svg);
+   background-image: url(images/bg-pattern-card.svg);
    background-repeat: no-repeat;
     
 }
